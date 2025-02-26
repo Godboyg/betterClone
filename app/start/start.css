@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start-page{
+    padding-left: 7vw;
+    padding-right: 8vw;
+}
+
+.page-con{
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(243, 243, 243);
+}
+
+.small-box{
+    margin-top: 5vw;
+    display: flex;
+    gap: 2vw;
+}
+
+.small-box-left{
+    text-align: center;
+}
+
+.small-box-left p{
+    font-size: 1.5vw;
+    font-size: 300;
+}
+
+.small-box-right{
+    text-align: center;
+}
+
+.small-box-right p{
+    font-size: 1.5vw;
+    font-size: 300;
+}
+
+.last-box{
+    margin-top: 5vw;
+    height: 30vh;
+    border-radius: 5px;
+    width: 45vw;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    justify-content: center;
+}
+
+.last-box p{
+    margin-top: 1vw;
+}

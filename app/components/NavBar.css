@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 6vw 1.5vw 1.3vw;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-left{
+    width: 52vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 2.5vw;
+}
+
+.nav-leftCon{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.nav-leftCon p{
+    padding: 1vw;
+    border-radius: 5vw;
+}
+
+.nav-right p{
+    padding: 1vw;
+    border-radius: 5vw;
+}
+
+.nav-right p:hover{
+    background-color: rgba(0, 0, 0, 0.059);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.nav-leftCon p:hover{
+    background-color: rgba(0, 0, 0, 0.059);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5vw;
+    position: relative;
+}
+
+.nav-right-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.nav-right-icon-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 50%;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.nav-right-icon-sec i{
+    font-size: 1.6vw;
+}
+
+.nav-right-icon i{
+    font-size: 1.6vw;
+}
+
+.nav-right-icon:hover{
+    background-color: rgba(0, 0, 0, 0.059);
+    transition: 0.3s ease-in;
+    border: none;
+}
+
+.call-me{
+    width: 25vw;
+    position: absolute;
+    top: 110%;
+    right: 70%;
+    padding: 2.5vw;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    display: none;
+}
+
+.nav-right-icon:hover ~ .call-me{
+    display: block;
+}
+
+.call-me:hover{
+    display: block;
+}
+
+@media (max-width : 640px){
+
+    .nav{
+        padding: 4vw;
+    }
+
+    h1{
+        font-size: 8vw;
+    }
+
+    .nav-right-icon-sec{
+        height: 10vw;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-right-icon{
+        height: 10vw;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-right-icon i{
+        font-size: 5vw;
+    }
+
+    .nav-right-icon-sec i{
+        font-size: 5vw;
+        border: none;
+        outline: none;
+    }
+
+    .nav-leftCon{
+        display: none;
+    }
+
+    .call-me{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+}

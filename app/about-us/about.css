@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-con{
+    height: 100vh;
+}
+
+.about-con-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 45vh;
+}
+
+.about-con h3{
+    color: green;
+    font-size: 3vw;
+}
+
+.about-con p{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+
+.about{
+    margin-top: 25vh;
+    padding: 0 10vw 0 10vw;
+    gap: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about h2{
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+}
+
+.about span{
+    font-size: 1.5vw;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.btn{
+    height: 20vw;
+    width: 30vw;
+}
+
+.flex-three button{
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    border: none;
+    height: 10vh;
+    width: 20vw;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 128, 32, 0.881);
+}
+
+.flex-three button:hover{
+    cursor: pointer;
+    background-color: green;
+    transition: 0.2s ease;
+}
+
+.about-right{
+    margin-top: 10vw;
+    height: 70vh;
+    width: 33vw;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.about-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
